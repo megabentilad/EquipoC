@@ -1,0 +1,27 @@
+*{
+}
+h1{
+    background-color: aqua;
+    padding: 5px;
+    text-align: center;
+}
+div marquee{
+    background-color: aqua;
+    padding: 5px;
+    width: 200px;
+}
+#lista{
+    list-style: none;
+}
+#lista li a{
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+footer{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    color: white;
+    
+}
