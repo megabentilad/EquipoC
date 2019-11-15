@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<departamentos>
+<departamento>
+    <codigo>PPP</codigo>
+    <descripcion>PPP</descripcion>
+</departamento>
+<departamento>
+    <codigo>PPA</codigo>
+    <descripcion>PPP</descripcion>
+</departamento>
+</departamentos>
