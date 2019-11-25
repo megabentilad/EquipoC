@@ -1,27 +1,65 @@
 *{
+    margin:0;
+    padding:0;
+
+}
+ nav a:active,nav a:hover, nav a:link, nav a:visited, nav a{
+    color: white;
+    text-decoration: none;
 }
 h1{
-    background-color: aqua;
+    font-weight: 600;
+    background-color: #586BBF;
+    color:white;
     padding: 5px;
     text-align: center;
+    padding: 15px;
 }
-div marquee{
-    background-color: aqua;
-    padding: 5px;
-    width: 200px;
+nav{
+    padding-top: 150px;
+    width:20%;
+    height:100vh;
+    background-color: #758EFF;
+    display: inline-block;
+    float:left;
 }
-#lista{
-    list-style: none;
+nav ul li:active{
+    background-color: #75AAFF;
+    color:white;
 }
-#lista li a{
-    color: black;
+nav ul li{
+    list-style-type: none;
     text-decoration: none;
-    text-transform: uppercase;
+    padding: 25px;
+    background-color: #586BBF;
+    margin-bottom:20px;
+    text-align: center;
+    color:white;
+}
+article{
+    width: 80%;
+    height: 80vh;
+    display: inline-block;
+    float:left;
+}
+article ul li a{
+    color: black;
+}
+article div{
+    width: 20%;
+    height: 20vh;
+    background-color: grey;
+    display: inline-block;
+    margin:18px;
 }
 footer{
-    position: absolute;
-    bottom: 0px;
-    width: 100%;
+    position: fixed;
+    bottom: 0;
     color: white;
-    
+    font-size: 25px;
+    width:100%;
+    text-align: center;
+    padding:10px;
+    font-weight: 600;
+    background-color: #1D2440;
 }
