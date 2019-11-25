@@ -41,6 +41,7 @@ article{
     height: 80vh;
     display: inline-block;
     float:left;
+    text-align: center;
 }
 article ul li a{
     color: black;
@@ -48,9 +49,11 @@ article ul li a{
 article div{
     width: 20%;
     height: 20vh;
-    background-color: grey;
     display: inline-block;
     margin:18px;
+}
+img{
+    width:100%;
 }
 footer{
     position: fixed;
